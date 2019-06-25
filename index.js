@@ -23,3 +23,19 @@ function nowServing(katzDeli)
     return "Currently serving "+name+".";
   }
 }
+
+function currentLine(katzDeli)
+{
+    var newArray;
+  if(katzDeli.length==0)
+  {
+    return "The line is currently empty.";
+  }
+  else {
+    for(let i=0;i<katzDeli.length;i++)
+    {
+    newArray.push(`$i+1` + "."+ katzDeli[i])
+    }
+    return "The line is currently: "+newArray+;
+  }
+}
