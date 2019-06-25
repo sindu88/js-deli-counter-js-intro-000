@@ -37,7 +37,7 @@ function currentLine(katzDeli)
     for(let i=0;i<katzDeli.length;i++)
     {
       index=i+1;
-name= index + "."+ katzDeli[i];
+name= index+"."+katzDeli[i];
     newArray.push(name);
     }
     var result="The line is currently: "+newArray;
