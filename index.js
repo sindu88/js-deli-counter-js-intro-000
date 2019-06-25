@@ -1,4 +1,4 @@
-var takeNumber=function(katzDeli,name)
+function takeANumber(katzDeli,name)
 {
   if(katzDeli.length!=0)
   {
