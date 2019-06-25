@@ -20,6 +20,6 @@ function nowServing(katzDeli)
   else {
     var name=katzDeli[0];
     katzDeli.shift();
-    return "Currently serving "+name+" .";
+    return "Currently serving "+name+".";
   }
 }
