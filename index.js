@@ -7,6 +7,6 @@ var takeNumber=function(katzDeli,name)
   else {
     katzDeli.push(name);
   }
-  
+
   conosle.log("Welcome," +name+ ". You are number" +katzDeli.length+ "in line.");
 }
