@@ -40,7 +40,9 @@ function currentLine(katzDeli)
       index=i+1;
       listName=katzDeli[i];
       listName=listName.trim();
-name=" " +index+". "+listName;
+name=+index+". "+listName;
+if(i!=0)
+name=" "+index+". "+listName;
     newArray.push(name);
     }
     var result="The line is currently: "+newArray;
