@@ -40,6 +40,7 @@ function currentLine(katzDeli)
 name= index + "."+ katzDeli[i];
     newArray.push(name);
     }
-    return "The line is currently: "+newArray;
+    var result="The line is currently: "+newArray;
+    return result;
   }
 }
