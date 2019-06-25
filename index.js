@@ -2,11 +2,11 @@ function takeANumber(katzDeli,name)
 {
   if(katzDeli.length!=0)
   {
-    katzDeli.append(name);
+    katzDeli.push(name);
   }
   else {
     katzDeli.push(name);
   }
 
-  conosle.log("Welcome," +name+ ". You are number" +katzDeli.length+ "in line.");
+  console.log("Welcome," +name+ ". You are number" +katzDeli.length+ "in line.");
 }
