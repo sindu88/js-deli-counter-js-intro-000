@@ -26,7 +26,7 @@ function nowServing(katzDeli)
 
 function currentLine(katzDeli)
 {
-    var newArray;
+    var newArray=[];
     var name;
     var index;
   if(katzDeli.length==0)
