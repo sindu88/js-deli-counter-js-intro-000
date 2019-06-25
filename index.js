@@ -28,6 +28,7 @@ function currentLine(katzDeli)
 {
     var newArray;
     var name;
+    var index;
   if(katzDeli.length==0)
   {
     return "The line is currently empty.";
@@ -35,7 +36,8 @@ function currentLine(katzDeli)
   else {
     for(let i=0;i<katzDeli.length;i++)
     {
-name=i+1 + "."+ katzDeli[i];
+      index=i+1;
+name= index + "."+ katzDeli[i];
     newArray.push(name);
     }
     return "The line is currently: "+newArray+;
