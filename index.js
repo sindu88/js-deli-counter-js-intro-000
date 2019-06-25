@@ -34,7 +34,7 @@ function currentLine(katzDeli)
   else {
     for(let i=0;i<katzDeli.length;i++)
     {
-    newArray.push(`$i+1` + "."+ katzDeli[i])
+    newArray.push(i+1 + "."+ katzDeli[i])
     }
     return "The line is currently: "+newArray+;
   }
